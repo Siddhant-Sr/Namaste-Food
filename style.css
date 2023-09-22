@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+html, body{
+    height: 100vh;
+    width: 100%;
+    /* background-color: black */
+}
+
+#nav{
+    background-color: white;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+
+#options{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-right: 50px;
+    list-style: none;
+    font-size: larger;
+    font-weight: 400;
+}
+
+#logo{
+    height: 90px;
+    width: 100px;
+    margin-left: 10px;
+    
+}
+
+#foodcard{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin: 25px;
+    width: 230px;
+}
+
+#foodcard:hover{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    transform: scale(0.95);
+}
+
+
+#fim{
+    height: 180px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#foodImage{
+    height: 190px;
+}
+
+#restraunt{
+    font-size: 1.3rem;
+    font-weight: 550;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#cusines, #location {
+    font-size: 15px;
+    font-weight: 450;
+    color: grey;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#cost{
+    font-size: 15px;
+    font-weight: 650;
+    /* display: inline-block; */
+    float: right;
+}
+#rating{
+    font-size: 15px;
+    font-weight: 650;
+    /* display: inline-block; */
+    float: left;
+}
+#body{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    padding-left: 50px;
+}
