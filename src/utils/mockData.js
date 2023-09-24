@@ -1,8 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-
-//Swiggy data
-const rest =  [
+export const REST =  [
     {
       "info": {
         "id": "355895",
@@ -501,7 +497,7 @@ const rest =  [
     },
     {
       "info": {
-        "id": "432780",
+        "id": "432781",
         "name": "Paratha Box - Desi Punjabi Meals",
         "cloudinaryImageId": "t1ycq1zgn0n0lbb7v4e4",
         "locality": "Sector 7",
@@ -1310,80 +1306,542 @@ const rest =  [
         "link": "https://www.swiggy.com/restaurants/theobroma-punjabi-bagh-delhi-58215",
         "type": "WEBLINK"
       }
-    }]
+    },
+    {
+      "info": {
+        "id": "422690",
+        "name": "The Belgian Waffle Co.",
+        "cloudinaryImageId": "8cb220fa3997a3b928d2ffb6c098acaf",
+        "locality": "Lala Jagat Narayan Marg",
+        "areaName": "Netaji Subhash Place",
+        "costForTwo": "₹200 for two",
+        "cuisines": [
+          "Waffle",
+          "Desserts",
+          "Ice Cream"
+        ],
+        "avgRating": 4.2,
+        "veg": true,
+        "feeDetails": {
+          "restaurantId": "422690",
+          "fees": [
+            {
+              "name": "BASE_DISTANCE",
+              "fee": 6000
+            },
+            {
+              "name": "BASE_TIME"
+            },
+            {
+              "name": "ANCILLARY_SURGE_FEE"
+            }
+          ],
+          "totalFee": 6000
+        },
+        "parentId": "2233",
+        "avgRatingString": "4.2",
+        "totalRatingsString": "500+",
+        "sla": {
+          "deliveryTime": 35,
+          "lastMileTravel": 6.8,
+          "serviceability": "SERVICEABLE",
+          "slaString": "35 mins",
+          "lastMileTravelString": "6.8 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2023-09-23 04:00:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "v1695133679/badges/Pure_Veg111.png",
+              "description": "pureveg"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "pureveg",
+                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {
+              
+            },
+            "textExtendedBadges": {
+              
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "20% OFF",
+          "subHeader": "UPTO ₹50"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        }
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/the-belgian-waffle-co-lala-jagat-narayan-marg-netaji-subhash-place-delhi-422690",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "15846",
+        "name": "Faasos - Wraps & Rolls",
+        "cloudinaryImageId": "af33b81798b11deba338e94b7585d348",
+        "locality": "Sector 8",
+        "areaName": "Rohini",
+        "costForTwo": "₹200 for two",
+        "cuisines": [
+          "Kebabs",
+          "Fast Food",
+          "Snacks",
+          "North Indian",
+          "American",
+          "Healthy Food",
+          "Desserts",
+          "Beverages"
+        ],
+        "avgRating": 4.2,
+        "feeDetails": {
+          "restaurantId": "15846",
+          "fees": [
+            {
+              "name": "BASE_DISTANCE",
+              "fee": 3600
+            },
+            {
+              "name": "BASE_TIME"
+            },
+            {
+              "name": "ANCILLARY_SURGE_FEE"
+            }
+          ],
+          "totalFee": 3600
+        },
+        "parentId": "21809",
+        "avgRatingString": "4.2",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 23,
+          "lastMileTravel": 2.7,
+          "serviceability": "SERVICEABLE",
+          "slaString": "23 mins",
+          "lastMileTravelString": "2.7 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2023-09-22 23:59:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              
+            },
+            "textBased": {
+              
+            },
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "50% OFF",
+          "subHeader": "UPTO ₹100"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        }
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/faasos-wraps-and-rolls-sector-8-rohini-delhi-15846",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "432780",
+        "name": "Paratha Box - Desi Punjabi Meals",
+        "cloudinaryImageId": "t1ycq1zgn0n0lbb7v4e4",
+        "locality": "Sector 7",
+        "areaName": "Rohini",
+        "costForTwo": "₹250 for two",
+        "cuisines": [
+          "North Indian",
+          "Punjabi",
+          "Indian",
+          "Home Food",
+          "Beverages"
+        ],
+        "avgRating": 3.7,
+        "feeDetails": {
+          "restaurantId": "432780",
+          "fees": [
+            {
+              "name": "BASE_DISTANCE",
+              "fee": 3600
+            },
+            {
+              "name": "BASE_TIME"
+            },
+            {
+              "name": "ANCILLARY_SURGE_FEE"
+            }
+          ],
+          "totalFee": 3600
+        },
+        "parentId": "306004",
+        "avgRatingString": "3.7",
+        "totalRatingsString": "50+",
+        "sla": {
+          "deliveryTime": 19,
+          "lastMileTravel": 1.7,
+          "serviceability": "SERVICEABLE",
+          "slaString": "19 mins",
+          "lastMileTravelString": "1.7 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2023-09-22 23:45:00",
+          "opened": true
+        },
+        "badges": {
+          
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              
+            },
+            "textBased": {
+              
+            },
+            "textExtendedBadges": {
+              
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "₹150 OFF",
+          "subHeader": "ABOVE ₹499",
+          "discountTag": "FLAT DEAL"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        }
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/paratha-box-desi-punjabi-meals-sector-7-rohini-delhi-432780",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "302687",
+        "name": "Barbeque Nation",
+        "cloudinaryImageId": "bav18jquonl2rlquifhz",
+        "locality": "Rohini",
+        "areaName": "Rohini",
+        "costForTwo": "₹600 for two",
+        "cuisines": [
+          "North Indian",
+          "Barbecue",
+          "Biryani",
+          "Kebabs",
+          "Mughlai",
+          "Desserts"
+        ],
+        "avgRating": 3.6,
+        "feeDetails": {
+          "restaurantId": "302687",
+          "fees": [
+            {
+              "name": "BASE_DISTANCE",
+              "fee": 4300
+            },
+            {
+              "name": "BASE_TIME"
+            },
+            {
+              "name": "ANCILLARY_SURGE_FEE"
+            }
+          ],
+          "totalFee": 4300
+        },
+        "parentId": "2438",
+        "avgRatingString": "3.6",
+        "totalRatingsString": "1K+",
+        "sla": {
+          "deliveryTime": 27,
+          "lastMileTravel": 2.1,
+          "serviceability": "SERVICEABLE",
+          "slaString": "27 mins",
+          "lastMileTravelString": "2.1 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2023-09-22 23:30:00",
+          "opened": true
+        },
+        "badges": {
+          
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              
+            },
+            "textBased": {
+              
+            },
+            "textExtendedBadges": {
+              
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "₹125 OFF",
+          "subHeader": "ABOVE ₹249",
+          "discountTag": "FLAT DEAL"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        }
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/barbeque-nation-rohini-delhi-302687",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "326440",
+        "name": "Punjabi Angithi",
+        "cloudinaryImageId": "g2pklvjnapzfoc4ackou",
+        "locality": "Paschim Vihar",
+        "areaName": "Paschim Vihar",
+        "costForTwo": "₹400 for two",
+        "cuisines": [
+          "North Indian",
+          "Chinese",
+          "Punjabi",
+          "Kebabs",
+          "Tandoor"
+        ],
+        "avgRating": 4.1,
+        "veg": true,
+        "feeDetails": {
+          "restaurantId": "326440",
+          "fees": [
+            {
+              "name": "BASE_DISTANCE",
+              "fee": 5400
+            },
+            {
+              "name": "BASE_TIME"
+            },
+            {
+              "name": "ANCILLARY_SURGE_FEE"
+            }
+          ],
+          "totalFee": 5400
+        },
+        "parentId": "4464",
+        "avgRatingString": "4.1",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 31,
+          "lastMileTravel": 5.6,
+          "serviceability": "SERVICEABLE",
+          "slaString": "31 mins",
+          "lastMileTravelString": "5.6 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2023-09-22 23:00:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              
+            },
+            "textBased": {
+              
+            },
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "₹125 OFF",
+          "subHeader": "ABOVE ₹249",
+          "discountTag": "FLAT DEAL"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        }
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/punjabi-angithi-paschim-vihar-delhi-326440",
+        "type": "WEBLINK"
+      }
+    }
+  ]
 
 
 
-const Navbar = ()=> {
-    return (
-        <div id='nav'>
-            <div id='logo'> <img id='logo' src='https://i.pinimg.com/originals/55/f8/af/55f8afd0d4c2224653f1ba467b6543e8.jpg'></img></div>
-            <ul id='options'>
-                <li>
-                    Offers
-                </li>
-                <li>
-                    Help
-                </li>
-                <li>
-                    Sign In
-                </li>
-                <li>
-                    Cart
-                </li>
-            </ul>
-        </div>
-    )
-}
-
-const FoodCard = (props)=> {
-    const {resData} = props
-    const {cloudinaryImageId, name, cuisines, locality, costForTwo, avgRating} = resData.info
-
-    return (
-        <div id='foodcard'>
-            <div id='foodImage'>
-                <img id='fim' src={'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/'+cloudinaryImageId}></img>
-
-            </div>
-            <div id='foodDetail'>
-                <h2 id='restraunt'>{name}</h2>
-                <h3 id='cusines'>{cuisines.join(", ")}</h3>
-                <h3 id='location'>{locality}</h3>
-                <h3 id='rating'>{avgRating + " ★"}</h3>
-                <h3 id='cost'>{costForTwo}</h3>
-               
-            </div>
-        </div>
-    )
-}
-
-
-const Body = ()=>{
-    return (
-        <div >
-            <div id='body'>
-
-            {rest.map((restaurant) =>(
-                <FoodCard key = {restaurant.info.id}  resData = {restaurant} />
-            ))}
-            
-        </div>
-        </div>
-
-    )
-}
-
-
-const AppLayout = () =>{
-    return (
-        <div>
-        <Navbar/>
-            <Body />
-        </div>
-    )
-}
-
-const root = ReactDOM.createRoot(document.getElementById("root"))
-
-root.render(<AppLayout/>)
