@@ -10,11 +10,11 @@ const FoodCard = (props)=> {
 
             </div>
             <div id='foodDetail'>
-                <h2 id='restraunt'>{name}</h2>
-                <h3 id='cusines'>{cuisines.join(", ")}</h3>
-                <h3 id='location'>{locality}</h3>
-                <h3 id='rating'>{avgRating + " ★"}</h3>
-                <h3 id='cost'>{costForTwo}</h3>
+                <h2 id='restraunt' className="decor">{name}</h2>
+                <h3 id='cusines' className="decor">{cuisines.join(", ")}</h3>
+                <h3 id='location' className="decor">{locality}</h3>
+                <h3 id='rating' className="decor">{avgRating + " ★"}</h3>
+                <h3 id='cost' className="decor">{costForTwo}</h3>
                
             </div>
         </div>
